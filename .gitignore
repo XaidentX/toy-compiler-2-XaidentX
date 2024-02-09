@@ -1,0 +1,8 @@
+parser.tab.c
+parser.tab.h
+parser.output
+lexer.c
+toy
+example
+*.o
+*~
