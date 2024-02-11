@@ -36,8 +36,8 @@ void gencode_expression(T_expression expression){
 		assert(false);
 		break;
 	}
-	printf("\tmovl %%eax, %%esi\n");
-	printf("\tleaq .LC0(%%rip), %%rdi\n");
-	printf("\tmovl $0, %%eax\n");
-	printf("\tcall print@PLT\n");
+	printf("\tmovl	%%eax, %%esi\n");
+	printf("\tleaq	.LC0(%%rip), %%rdi\n");
+	printf("\tmovl	$0, %%eax\n");
+	printf("\tcall	printf@PLT\n");
 }
